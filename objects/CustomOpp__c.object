@@ -90,6 +90,16 @@
         <type>Text</type>
         <unique>false</unique>
     </fields>
+    <fields>
+        <fullName>CustomFieldDemo4__c</fullName>
+        <externalId>false</externalId>
+        <label>CustomFieldDemo4</label>
+        <length>40</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
     <label>CustomOpp</label>
     <nameField>
         <label>CustomOpps Name</label>

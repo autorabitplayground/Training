@@ -80,6 +80,10 @@
         <apexClass>NewAccountTest4</apexClass>
         <enabled>false</enabled>
     </classAccesses>
+    <classAccesses>
+        <apexClass>Bizlogic</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
     <custom>true</custom>
     <description>This is custom profile</description>
     <fieldPermissions>
@@ -1250,6 +1254,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>CustomOpp__c.CustomField3__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>CustomOpp__c.CustomFieldDemo4__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>

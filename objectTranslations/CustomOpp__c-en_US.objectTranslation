@@ -9,21 +9,8 @@
         <value>CustomOpps</value>
     </caseValues>
     <fields>
-        <help><!-- This is custom field --></help>
-        <label><!-- CustomField1 --></label>
-        <name>CustomField1__c</name>
-    </fields>
-    <fields>
-        <label><!-- CustomField2 --></label>
-        <name>CustomField2__c</name>
-    </fields>
-    <fields>
-        <label><!-- CustomField3 --></label>
-        <name>CustomField3__c</name>
+        <label><!-- CustomFieldDemo4 --></label>
+        <name>CustomFieldDemo4__c</name>
     </fields>
     <startsWith>Consonant</startsWith>
-    <validationRules>
-        <errorMessage><!-- Not a valid year --></errorMessage>
-        <name>TestRule</name>
-    </validationRules>
 </CustomObjectTranslation>
