@@ -24,7 +24,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>CustomFieldDemo4__c</field>
+                <field>CustomNumberField__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>

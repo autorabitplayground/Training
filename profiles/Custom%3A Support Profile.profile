@@ -1261,6 +1261,11 @@
         <field>CustomOpp__c.CustomFieldDemo4__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>CustomOpp__c.CustomNumberField__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>Account-Account %28Support%29 Layout</layout>
     </layoutAssignments>

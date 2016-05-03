@@ -67,6 +67,7 @@
         <members>CustomOpp__c.CustomField2__c</members>
         <members>CustomOpp__c.CustomField3__c</members>
         <members>CustomOpp__c.CustomFieldDemo4__c</members>
+        <members>CustomOpp__c.CustomNumberField__c</members>
         <members>Goal.OrigGoalId__c</members>
         <members>Lead.CurrentGenerators__c</members>
         <members>Lead.NumberofLocations__c</members>
