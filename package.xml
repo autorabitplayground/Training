@@ -3,6 +3,7 @@
     <version>36.0</version>
     <types>
         <members>Bizlogic</members>
+        <members>Milestone1_Constants</members>
         <name>ApexClass</name>
     </types>
     <types>
