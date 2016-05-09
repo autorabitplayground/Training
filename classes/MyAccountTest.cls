@@ -18,9 +18,14 @@ public class MyAccountTest{
 		
 		if(a != null)
 		{
-			a.Name = 'GitHub-AutoRabitDemo...';
+			a.Name = 'GitHub-AutoRabitDemo';
 			
 			update a;
 		}
+	}
+	
+	public void displayAccount()
+	{
+		System.debug('Method to display Account');
 	}
 }
