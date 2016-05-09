@@ -11,6 +11,7 @@ public class MyAccountTest{
 		// Added some information in Visa Use Case Demo
 	}
 	
+	//Method to update Accounts
 	public void updateAccountDetail()
 	{
 		Account a = [Select id, Name from Account Limit 1];
