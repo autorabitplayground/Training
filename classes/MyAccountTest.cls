@@ -23,4 +23,10 @@ public class MyAccountTest{
 			update a;
 		}
 	}
+	
+	//Method to display Accounts...
+	public void displayAccount()
+	{
+		System.debug('Method to display Account');
+	}
 }
