@@ -22,4 +22,15 @@ public class AccountTest{
 			update a;
 		}
 	}
+	
+	//Method to get 1000 Contacts
+	public void getContacts()
+	{
+		List<Contact> contactList = [Select id, Name from Contact Limit 1000];
+		
+		for(Contact c : contactList)
+		{
+			System.debug('Name : ' + c.Name);		
+		}
+	}
 }
