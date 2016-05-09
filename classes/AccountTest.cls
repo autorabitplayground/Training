@@ -13,6 +13,14 @@ insert a;
 
 }
 
+public static void deleteaccount(Account a)
+{
+	//delete account
+	
+	delete a;
+
+}
+
 
 
 
