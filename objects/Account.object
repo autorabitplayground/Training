@@ -201,7 +201,7 @@
             </picklistValues>
             <picklistValues>
                 <fullName>Consulting</fullName>
-                <default>false</default>
+                <default>true</default>
             </picklistValues>
             <picklistValues>
                 <fullName>Education</fullName>
