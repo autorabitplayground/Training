@@ -14,7 +14,7 @@ public class AccountTest{
 	//Method to update an Account
 	public void updateAccount()
 	{
-		Account a = [Select id from Account Limit 1];
+		Account a = [Select id, Name from Account Limit 1];
 		
 		if(a != null)
 		{
