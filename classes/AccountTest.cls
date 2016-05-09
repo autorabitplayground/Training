@@ -24,5 +24,13 @@ public class AccountTest{
 		}
 	}
 
+	public void deleteAccount(Account a)
+	{
+		if(a != null){
+			delete a;
+		}
+
+	}
+
 	
 }
