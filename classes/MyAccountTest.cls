@@ -19,7 +19,7 @@ public class MyAccountTest{
 		
 		if(a != null)
 		{
-			a.Name = 'GitHub-AutoRabitDemo...';
+			a.Name = 'GitHub-AutoRabitDemo';
 			
 			update a;
 		}

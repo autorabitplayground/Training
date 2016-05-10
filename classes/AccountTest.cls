@@ -30,10 +30,17 @@ public class AccountTest{
 	{
 		List<Contact> contactList = [Select id, Name from Contact Limit 1000];
 		
+		Account a = [Select id, Name from Account Limit 1];
+		
+		List<Contact> cList = new List<Contact>();
+			
 		for(Contact c : contactList)
 		{
-			System.debug('Name : ' + c.Name);		
+			c.AccountId = a.Id;
+			cList.add(c);
 		}
+		
+		update cList;
 	}
 
 	public void deleteAccount(Account a)
