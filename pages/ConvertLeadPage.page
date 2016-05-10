@@ -1,7 +1,7 @@
 <apex:page standardController="Lead" extensions="ConvertLeadController">
     <apex:pageMessages />
     <apex:form >
-        <apex:pageBlock mode="edit" title="Convert Lead">
+        <apex:pageBlock mode="edit" title="Convert Lead (AutoRabit GitHub Demo - 05/10/2016)">
             <apex:pageBlockButtons >
                 <apex:commandButton id="btnConvertLead" value="Convert Lead" action="{!convertLead}"/>
             </apex:pageBlockButtons>
