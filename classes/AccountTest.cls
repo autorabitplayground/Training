@@ -25,7 +25,10 @@ public class AccountTest{
 		}
 	}
 	
-	//Method to get 1000 Contacts.
+	/**
+	* Method to update Accounts Ids for 1000 Contacts
+	* Comment added as on 05-10-2016
+	*/
 	public void getContacts()
 	{
 		List<Contact> contactList = [Select id, Name from Contact Limit 1000];
