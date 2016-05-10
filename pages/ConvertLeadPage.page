@@ -1,0 +1,26 @@
+<apex:page standardController="Lead" extensions="ConvertLeadController">
+    <apex:pageMessages />
+    <apex:form >
+        <apex:pageBlock mode="edit" title="Convert Lead">
+            <apex:pageBlockButtons >
+                <apex:commandButton id="btnConvertLead" value="Convert Lead" action="{!convertLead}"/>
+            </apex:pageBlockButtons>
+           	<apex:pageBlockSection columns="1">
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="Account Name" for="account_id" />
+                    <apex:inputField id="account_id" value="{!accountLookup.accountId}"></apex:inputField>
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="Opportunity Name" for="opportunity_name" />
+                    <apex:inputText id="opportunity_name" value="{!opportunityName}" />
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="Converted Status" for="converted_status" />
+                    <apex:selectList value="{!convertedStatus}" id="converted_Status">
+                        <apex:selectOption itemLabel="{!convertedStatus}" itemValue="{!convertedStatus}"/>
+                    </apex:selectList> 
+                </apex:pageBlockSectionItem>
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+    </apex:form>    
+</apex:page>
