@@ -14,6 +14,7 @@ public class AccountTest{
 	//Method to update an Account
 	public void updateAccount()
 	{
+		//comment for demo purpose 5/9
 		Account a = [Select id, Name from Account Limit 1];
 		
 		if(a != null)
@@ -40,4 +41,14 @@ public class AccountTest{
 		
 		update cList;
 	}
+
+	public void deleteAccount(Account a)
+	{
+		if(a != null){
+			delete a;
+		}
+
+	}
+
+	
 }
