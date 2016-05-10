@@ -4,6 +4,7 @@ public class MyAccountTest{
 	{
 		// A new comment on 25th Jan
 		//Added for AutoCommit
+		//added new comment on 5/10 - demo
 		Account a = new account();
 		a.name = 'test-autocommit22';
 		insert a;
