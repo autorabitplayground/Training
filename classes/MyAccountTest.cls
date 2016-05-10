@@ -15,6 +15,7 @@ public class MyAccountTest{
 	//Method to update Accounts
 	public void updateAccountDetail()
 	{
+		//added one more comment for demo 5/10 -  demo 2
 		Account a = [Select id, Name from Account Limit 1];
 		
 		if(a != null)
