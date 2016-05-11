@@ -1,6 +1,6 @@
 <apex:page standardController="Lead" extensions="ConvertLeadController">
     <apex:pageMessages />
-    <apex:sectionHeader title="Custom Lead Conversion Page" subtitle="Demo GitHub & AutoRabit 05/11/2016"/>
+    <apex:sectionHeader title="Custom Lead Conversion Page" subtitle="AutoRabit Demo on 05/11/2016"/>
     <apex:form >
         <apex:pageBlock mode="edit" title="Convert Lead">
             <apex:pageBlockButtons >
