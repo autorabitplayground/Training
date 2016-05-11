@@ -1,6 +1,6 @@
 <apex:page standardController="Lead" extensions="ConvertLeadController">
     <apex:pageMessages />
-    <apex:sectionHeader title="Custom Lead Conversion Page" subtitle="Convert to Lead"/>
+    <apex:sectionHeader title="Gihub and Auto Rabit Demo" subtitle="Custom Lead Conversion Page"/>
     <apex:form >
         <apex:pageBlock mode="edit" title="Convert Lead">
             <apex:pageBlockButtons >
