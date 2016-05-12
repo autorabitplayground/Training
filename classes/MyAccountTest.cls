@@ -11,6 +11,19 @@ public class MyAccountTest{
 		
 		// Added some information in Visa Use Case Demo
 	}
+
+	    //Method to delete Accounts
+    public void deleteAccountDetail()
+    {
+        Account a = [Select id, Name from Account Limit 1];
+        
+        if(a != null)
+        {
+            
+            
+            delete a;
+        }
+    }
 	
 	//Method to update Accounts
 	public void updateAccountDetail()
