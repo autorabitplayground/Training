@@ -28,15 +28,17 @@
         "mmState": "clean"
     },
     "AccountTest.cls": {
-        "createdById": "00561000001ErRFAA0",
-        "createdByName": "Niranjan Gattupalli",
-        "createdDate": "2015-12-01T18:26:19.000Z",
-        "fileName": "unpackaged/classes/AccountTest.cls",
-        "fullName": "AccountTest",
         "id": "01p61000006yM9zAAE",
+        "name": "AccountTest",
+        "createdDate": "2015-12-01T18:26:19.000+0000",
+        "createdById": "00561000001ErRFAA0",
+        "namespacePrefix": null,
         "lastModifiedById": "00561000001ErRFAA0",
+        "lastModifiedDate": "2016-05-16T19:36:29.000+0000",
+        "fullName": "AccountTest",
+        "fileName": "unpackaged/classes/AccountTest.cls",
+        "createdByName": "Niranjan Gattupalli",
         "lastModifiedByName": "Niranjan Gattupalli",
-        "lastModifiedDate": "2016-05-16T10:31:53.000Z",
         "manageableState": "unmanaged",
         "type": "ApexClass",
         "mmState": "clean"
@@ -108,6 +110,20 @@
         "lastModifiedByName": "Niranjan Gattupalli",
         "lastModifiedDate": "2016-05-03T19:41:13.000Z",
         "type": "Profile",
+        "mmState": "clean"
+    },
+    "AccountTestMM3.cls": {
+        "createdById": "00561000001ErRFAA0",
+        "createdByName": "Niranjan Gattupalli",
+        "createdDate": "2016-05-16T11:35:19.000Z",
+        "fileName": "unpackaged/classes/AccountTestMM3.cls",
+        "fullName": "AccountTestMM3",
+        "id": "01p61000007cnouAAA",
+        "lastModifiedById": "00561000001ErRFAA0",
+        "lastModifiedByName": "Niranjan Gattupalli",
+        "lastModifiedDate": "2016-05-16T11:35:19.000Z",
+        "manageableState": "unmanaged",
+        "type": "ApexClass",
         "mmState": "clean"
     }
 }
