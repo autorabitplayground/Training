@@ -9,6 +9,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>AccountTestMM3</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>AccountTestMMTestingFinal</apexClass>
         <enabled>false</enabled>
     </classAccesses>
