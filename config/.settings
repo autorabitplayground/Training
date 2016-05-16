@@ -1,0 +1,16 @@
+{
+    "projectName": "Niranjan-Dev",
+    "username": "niranjan-dev@autorabit.com",
+    "id": "84085770-1b58-11e6-bdeb-6f183d829302",
+    "namespace": "",
+    "environment": "production",
+    "loginUrl": "https://login.salesforce.com/",
+    "workspace": "D:\\Mavensmate",
+    "subscription": [
+        "ApexClass",
+        "ApexComponent",
+        "ApexPage",
+        "ApexTrigger",
+        "StaticResource"
+    ]
+}
