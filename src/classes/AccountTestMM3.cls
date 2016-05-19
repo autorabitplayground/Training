@@ -3,7 +3,7 @@ public class AccountTestMM3{
 public static void insertaccount()
 {
 // A new comment on 25th Jan
-//Added for AutoCommit
+//Added for AutoCommit-R24Integration Team
 Account a = new account();
 a.name = 'Niranjan-Mavensmate3-ChangeinR24Orders';
 insert a;
