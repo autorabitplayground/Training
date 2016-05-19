@@ -7,7 +7,7 @@ public static void insertaccount()
 //Entered Third line
 //Added for AutoCommit Niranjan Orders
 Account a = new account();
-a.name = 'test-autocommit22';
+a.name = 'test-autocommit226';
 insert a;
 // Added some information in Visa Use Case Demo
 
