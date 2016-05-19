@@ -2,7 +2,7 @@ public class AccountTestNiranjan{
 
 public static void insertaccount()
 {
-// A new comment on 25th Jan
+// A new comment on 25th Jan - 19th May
 //Added for AutoCommit
 Account a = new account();
 a.name = 'test-autocommit22';
