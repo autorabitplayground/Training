@@ -2,7 +2,7 @@ public class Bizlogic{
 
 public static void insertaccount()
 {
-// Changes Made by Developer1 in the Demo
+// Changes Made by Developer1 in the Demo - Niranjan
 //Added for AutoCommit
 Account a = new account();
 a.name = 'test-autocommit22';

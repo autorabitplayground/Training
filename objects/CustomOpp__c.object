@@ -58,7 +58,7 @@
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
         <fullName>CustomField1__c</fullName>
-        <description>This is custom field discussed in internal review</description>
+        <description>This is custom field discussed in internal review in the demo</description>
         <externalId>false</externalId>
         <inlineHelpText>This is custom field</inlineHelpText>
         <label>CustomField1</label>
