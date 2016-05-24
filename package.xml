@@ -3,6 +3,7 @@
     <version>36.0</version>
     <types>
         <members>AccountTest</members>
+        <members>AccountTestMM3</members>
         <members>AccountTestNiranjan</members>
         <members>Bizlogic</members>
         <members>MyAccountTest</members>
